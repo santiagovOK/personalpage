@@ -100,8 +100,8 @@ header section {
 
 .header--social-container .twitter {    
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     background-image: url(assets/icons/x-logo.svg);
     background-size: cover;
     background-position: center;
@@ -120,8 +120,8 @@ header section {
 
 .header--social-container .threads {    
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     margin-left: 10px;
     background-image: url(assets/icons/threads.svg);
     background-size: cover;
@@ -140,8 +140,8 @@ header section {
 
 .header--social-container .linkedin {    
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     margin-left: 10px;
     background-image: url(assets/icons/linkedin-logo.svg);
     background-size: cover;
@@ -160,8 +160,8 @@ header section {
 
 .header--social-container .github {    
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     margin-left: 10px;
     background-image: url(assets/icons/github-icon.svg);
     background-size: cover;
@@ -180,8 +180,8 @@ header section {
 
 .header--social-container .facebook {    
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     margin-left: 10px;
     background-image: url(assets/icons/facebook-icon.png);
     background-size: cover;
@@ -200,8 +200,8 @@ header section {
 
 .header--social-container .youtube {    
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     margin-left: 10px;
     background-image: url(assets/icons/youtube-icon.png);
     background-size: cover;
@@ -214,6 +214,26 @@ header section {
 }
 
 .header--social-container .youtube:active {
+    background-color: #e0e0e0; 
+    transform: scale(0.85); 
+}
+
+.header--social-container .bluesky {    
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    background-image: url(assets/icons/bluesky-icon.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header--social-container .bluesky:hover {
+    transform: scale(1.15);
+}
+
+.header--social-container .bluesky:active {
     background-color: #e0e0e0; 
     transform: scale(0.85); 
 }
